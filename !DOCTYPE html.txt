@@ -310,7 +310,7 @@
             &copy; Copyright <strong><span>DCS</span></strong>. All Rights Reserved
         </div>
         <div class="credite text-center">
-            Designed By N.T.VARSHITH SAGAR
+            Designed By ANANTH CHOWDARY
         </div>
     </footer>
  
