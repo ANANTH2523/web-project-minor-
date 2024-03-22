@@ -43,7 +43,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <a class="navbar-brand" href="#">
-                    <img src="Screenshot 2024-03-17 153631.png" alt="Logo" width="45" height="40" class="d-inline-block align-text-top">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/021/661/077/small_2x/dcs-letter-logo-design-in-illustration-logo-calligraphy-designs-for-logo-poster-invitation-etc-vector.jpg" alt="Logo" width="45" height="40" class="d-inline-block align-text-top">
                   DCS
                   </a>
                   <li class="nav-item">
@@ -112,6 +112,7 @@
                             </div>
                             <button type="submit" class="btn btn-primary">Signup</button>
                           </form>
+                          
                         
                         </div>
                        
@@ -149,6 +150,7 @@
                               </div>
                               <button type="submit" class="btn btn-primary">Login</button>
                             </form>
+                           
                           
                           </div>
                          
@@ -172,14 +174,14 @@
         </div>
 
     </div>
-
+    
     <!-- about -->
     <div class="container" id="about" style="padding-top: 75px; padding-left: 75px; padding-right: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px; background: blanchedalmond; width: 100%;">
         <h1 class="text-center">ABOUT</h1>
         <div class="row" style="margin-top: 70px; margin-bottom: 30px;">
             <div class="col-md-6 py-3 py-md-0">
                 <div class="card">
-                    <img src="./image/about.png" alt="">
+                    <img src="https://digitalcrafts.in/images/homeAbout.webp" alt="">
                 </div>
             </div>
             <div class="col-md-6 py-3 py-md-0">
@@ -188,11 +190,7 @@
                     <br>•3D Printed Formworks for your individual Concrete Solution<br>
                     •Digital Stones made with Low Carbon Concrete<br>
                     •Non-standard Concrete Stairs enabled through 3D Printed Formwork<br>
-                    •3D Printed Functional Shading & Light Guiding Facade Elements<br>     
-                    •3D Printed Space Dividers & Large Format Screens<br>
-                    •Bespoke 3D Printed Tiles<br>
-                    •Individual Design & Production for Art & Architecture<br>
-                    •3D Printing Services & Consultancy .<br></p>
+                    •3D Printed Functional Shading & Light Guiding Facade Elements<br></p>
                 <h3 style="padding-bottom: 23px;">#Crafting Dreams Into Reality</h3>
                 <div id="btn4"><button>Start Exploring</button></div>
             </div>
@@ -208,7 +206,7 @@
                 <div class="card" id="c">
                     <img src="./image/card1.png" alt="" class="card image-top">
                     <div class="card-body">
-                        <h3 class="card-titel text-center">Best Sofa</h3>
+                        <h3 class="card-titel text-center">Search Engine Optimization</h3>
                         <div id="btn3"><button>View More</button></div>
                     </div>
                 </div>
@@ -217,7 +215,7 @@
                 <div class="card" id="c">
                     <img src="./image/card2.png" alt="" class="card image-top">
                     <div class="card-body">
-                        <h3 class="card-titel text-center">New Sofa</h3>
+                        <h3 class="card-titel text-center">Pay-Per Click</h3>
                         <div id="btn3"><button>View More</button></div>
                     </div>
                 </div>
@@ -226,7 +224,7 @@
                 <div class="card" id="c">
                     <img src="./image/card3.png" alt="" class="card image-top">
                     <div class="card-body">
-                        <h3 class="card-titel text-center">New Chair</h3>
+                        <h3 class="card-titel text-center">Lead Generation</h3>
                         <div id="btn3"><button>View More</button></div>
                     </div>
                 </div>
@@ -235,7 +233,7 @@
                 <div class="card" id="c">
                     <img src="./image/card4.png" alt="" class="card image-top">
                     <div class="card-body">
-                        <h3 class="card-titel text-center">Modern Chair</h3>
+                        <h3 class="card-titel text-center">Social Media Marketing</h3>
                         <div id="btn3"><button>View More</button></div>
                     </div>
                 </div>
@@ -246,7 +244,7 @@
                 <div class="card" id="c">
                     <img src="./image/card5.png" alt="" class="card image-top">
                     <div class="card-body">
-                        <h3 class="card-titel text-center">Best Sofa</h3>
+                        <h3 class="card-titel text-center">Performance Marketing</h3>
                         <div id="btn3"><button>View More</button></div>
                     </div>
                 </div>
@@ -255,7 +253,7 @@
                 <div class="card" id="c">
                     <img src="./image/card6.png" alt="" class="card image-top">
                     <div class="card-body">
-                        <h3 class="card-titel text-center">Sofa Chair</h3>
+                        <h3 class="card-titel text-center">Native ADs</h3>
                         <div id="btn3"><button>View More</button></div>
                     </div>
                 </div>
@@ -264,7 +262,7 @@
                 <div class="card" id="c">
                     <img src="./image/card1.png" alt="" class="card image-top">
                     <div class="card-body">
-                        <h3 class="card-titel text-center">Table Chair</h3>
+                        <h3 class="card-titel text-center">E-Commerce Personalization</h3>
                         <div id="btn3"><button>View More</button></div>
                     </div>
                 </div>
@@ -273,7 +271,7 @@
                 <div class="card" id="c">
                     <img src="./image/card1.png" alt="" class="card image-top">
                     <div class="card-body">
-                        <h3 class="card-titel text-center">Hanging Chair</h3>
+                        <h3 class="card-titel text-center">Turnaround Audits</h3>
                         <div id="btn3"><button>View More</button></div>
                     </div>
                 </div>
@@ -285,7 +283,7 @@
     <div class="container" id="testimonals" style="padding-top: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px; background: rgb(131, 127, 121); width: 100%;">
         <h1 class="text-center">TESTIMONALS</h1>
         </div>
-    
+   </div> 
     
         
 <div class="container" id="team" style="padding-top: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px; background: rgb(131, 127, 121); width: 100%;">
@@ -294,10 +292,18 @@
   
  <div class="container" id="gallery" style="padding-top: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px; background: rgb(131, 127, 121); width: 100%;">
                 <h1 class="text-center">GALLERY</h1>
-                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card" id="c">
+                      <img src="./image/card1.png" alt="" class="card image-top">
+                      <div class="card-body">
+                        </div>
+                        
+
                    
             
-
+</div>
+<div>
+  <br>
     <footer id="footer">
         <h1 class="text-center">DCS</h1>
         <p class="text-center">Crafting Dreams Into Reality</p>
@@ -313,10 +319,13 @@
             Designed By ANANTH CHOWDARY
         </div>
     </footer>
- 
-
-
+  </br>
+</div>
+</br>
 
 </body>
 
 </html>
+
+
+  
