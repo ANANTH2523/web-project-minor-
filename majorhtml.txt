@@ -65,7 +65,10 @@
                     <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
                   </li>
                   <li class="nav-item6">
-                    <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item6">
+                    <a class="nav-link active" aria-current="page" href="#footer">Footer</a>
                   </li>
                   </ul>
                   <form class="d-flex" role="search" class="d-inline-block align-text-middle">
@@ -112,7 +115,13 @@
                             </div>
                             <button type="submit" class="btn btn-primary">Signup</button>
                           </form>
-                          
+                          <style>
+                            .btn-primary{
+                            background-color: #5b9db9;
+                            border-color: #000;
+                        
+                        }
+                        </style>
                         
                         </div>
                        
@@ -159,7 +168,24 @@
                       </div>
                     </div>
                     </div>
-                    
+                     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+
+    <!-- CanJS and User Authentication JavaScript -->
+    <script type="module" src="//unpkg.com/can@pre/core.mjs"></script>
+    <script type="module">
+        // Your user authentication JavaScript code goes here
+        // Copy and paste the JavaScript code for SignupLogin class and related functionalities
+        // from the previous JavaScript code you provided
+    </script>
               
 
             </nav>
@@ -324,11 +350,15 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>                  
+</div>                
+</div>
             </section> 
+            
          </div>
         </div> 
    </div> 
+   
     
         
   <div class="container" id="team" style="padding-top: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px; background: rgb(148, 230, 160); width: 100%;">
@@ -463,8 +493,96 @@
 
 </div></div>
       </div>             
-            
+      <div class="container" id="contact" style="padding-top: 75px; margin-top: 100px; margin-bottom: 100px; padding-bottom: 75px; background: rgb(234, 126, 126); width: 100%;">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <style>
+            /* Add your CSS styles here */
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .contact-form {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            .form-group {
+                margin-bottom: 20px;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+            input[type="text"],
+            textarea {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                resize: vertical;
+            }
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+        </style>
+    
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    
+    <div id="contactDetails">
+        <h2>Company Contact Details</h2>
+        <p>Email: DCS-helpdesk@gmail.com</p>
+        <p>Phone: +918125476979</p>
+        <p>Address: JUBILEE HILLS,HYDERABAD,TELANGANA</p>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const contactForm = document.getElementById("contactForm");
+            contactForm.addEventListener("submit", function(event) {
+                event.preventDefault();
+                // You can add your form submission logic here
+                const formData = new FormData(contactForm);
+                for (const [name, value] of formData.entries()) {
+                    console.log(name + ": " + value);
+                }
+                // Simulate form submission (replace with actual AJAX request)
+                alert("Form submitted successfully!");
+                contactForm.reset(); // Reset the form after submission
+            });
+        });
+    </script>
+          
 </div>
+
 <div>
   <br>
     <footer id="footer">
@@ -476,6 +594,7 @@
             <i class="bx bxl-instagram"></i>
         </div>
         <div class="copyright text-center">
+        
             &copy; Copyright <strong><span>DCS</span></strong>. All Rights Reserved
         </div>
         <div class="credite text-center">
